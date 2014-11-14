@@ -3,6 +3,6 @@ codoforum-sso
 
 Single sign on for codoforum
 
-You have to **ONLY** edit file.php for SSO integration.
+You have to **ONLY** edit client.php for SSO integration.
 
-The `file.php` file is documented to help you with the setup.
+The `client.php` file is documented to help you with the setup.
