@@ -54,7 +54,10 @@ class codoforum_sso {
         if(isset($res['error'])) {
             
             $data = $res;
-        }
+        }else {        
+	  
+	  $data['uid'] = $data['uid'] . ''; //convert to string if is int
+        } 
         
                 
         $user = json_encode($data);
