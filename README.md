@@ -1,7 +1,7 @@
 codoforum-sso
 =============
 
-Single sign on for codoforum
+Single sign on for codoforum [https://codoforum.com]
 
 You have to **ONLY** edit client.php for SSO integration.
 
