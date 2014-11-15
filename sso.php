@@ -54,7 +54,7 @@ class codoforum_sso {
         if(isset($res['error'])) {
             
             $data = $res;
-        }else {        
+        }else if(isset($data['uid'])){        
 	  
 	  $data['uid'] = $data['uid'] . ''; //convert to string if is int
         } 
